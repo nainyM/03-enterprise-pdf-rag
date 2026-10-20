@@ -1,0 +1,18 @@
+{
+  "company": "Kestrel Logistics (fictional)",
+  "note": "Synthetic documents for a portfolio demo. No real company data.",
+  "documents": [
+    {"doc_id": "HR-001", "title": "Employee Handbook 2026", "file": "HR-001_employee_handbook_2026.pdf", "access": "all", "owner": "People Team", "date": "2026-01-15", "status": "current"},
+    {"doc_id": "HR-002", "title": "Compensation Bands 2026", "file": "HR-002_compensation_bands_2026.pdf", "access": "hr", "owner": "People Team", "date": "2026-02-01", "status": "current"},
+    {"doc_id": "FIN-001", "title": "Expense Policy v2", "file": "FIN-001_expense_policy_v2.pdf", "access": "finance", "owner": "Finance", "date": "2025-06-01", "status": "superseded"},
+    {"doc_id": "FIN-002", "title": "Expense Policy v3", "file": "FIN-002_expense_policy_v3.pdf", "access": "finance", "owner": "Finance", "date": "2026-03-01", "status": "current"},
+    {"doc_id": "FIN-003", "title": "Refund and Credit Approval Limits", "file": "FIN-003_refund_approval_limits.pdf", "access": "finance", "owner": "Finance", "date": "2026-01-10", "status": "current"},
+    {"doc_id": "TRV-001", "title": "Travel Booking Rules", "file": "TRV-001_travel_booking_rules.pdf", "access": "finance", "owner": "Finance", "date": "2025-12-01", "status": "current"},
+    {"doc_id": "SEC-001", "title": "Access Control Standard", "file": "SEC-001_access_control_standard.pdf", "access": "security", "owner": "Security", "date": "2025-11-20", "status": "current"},
+    {"doc_id": "SEC-002", "title": "Incident Response Runbook", "file": "SEC-002_incident_response_runbook.pdf", "access": "security", "owner": "Security", "date": "2025-09-05", "status": "current"},
+    {"doc_id": "ENG-001", "title": "Data Retention Policy", "file": "ENG-001_data_retention_policy.pdf", "access": "security", "owner": "Engineering", "date": "2026-02-15", "status": "current"},
+    {"doc_id": "PRD-001", "title": "Customer Support SLA", "file": "PRD-001_customer_support_sla.pdf", "access": "all", "owner": "Support", "date": "2026-04-01", "status": "current"},
+    {"doc_id": "PRD-002", "title": "Release Process", "file": "PRD-002_release_process.pdf", "access": "all", "owner": "Product", "date": "2026-05-12", "status": "current"},
+    {"doc_id": "PRD-003", "title": "Product Requirements Template", "file": "PRD-003_prd_template.pdf", "access": "all", "owner": "Product", "date": "2026-03-20", "status": "current"}
+  ]
+}
