@@ -128,19 +128,34 @@ streamlit run app.py                  # demo UI
 ├── rag.py              # retrieval with access filter, grounded answer with Claude
 ├── ingest.py           # parse, clean, chunk, embed, index
 ├── make_corpus.py      # generates the synthetic PDFs
-├── eval_run.py         # runs the 35-question eval and writes the report
+├── eval_run.py              # runs the eval and writes the report
+├── generate_candidates.py   # drafts candidate eval questions from the chunks (pending review)
+├── promote_candidates.py    # moves approved candidates into the eval set
 ├── corpus/
-│   ├── manifest.json   # per-document metadata: owner, date, status, access
-│   └── pdfs/           # generated PDFs
+│   ├── manifest.json        # per-document metadata: owner, date, status, access
+│   └── pdfs/                # generated PDFs
 ├── docs/
-│   ├── PRD.md          # product requirements, targets, risks
-│   └── app_answer.png  # screenshot
+│   ├── PRD.md               # product requirements, targets, risks
+│   └── app_answer.png       # screenshot
 ├── eval/
-│   ├── questions.json  # 35 questions with gold answers
-│   ├── report.md       # eval report
-│   └── results.json    # raw results
+│   ├── questions.json       # 35 questions with gold answers
+│   ├── candidates.json      # drafted questions awaiting review, with a status for each
+│   ├── review_candidates.md # readable table of the drafts for review
+│   ├── report.md            # eval report
+│   └── results.json         # raw results
 └── requirements.txt
 ```
+
+## Generating new eval questions
+
+Writing eval questions by hand doesn't scale, so the project can draft them from the chunks. A person still approves every question before it counts.
+
+1. `python generate_candidates.py` asks Claude to write two questions per current chunk, plus refusal questions. The gold page is taken from the chunk automatically. Each draft is saved in `eval/candidates.json` with status `pending`.
+2. Read `eval/review_candidates.md`, the readable table of the drafts. Check that each question is realistic, that the gold page really holds the answer, and that the key facts are right.
+3. In `eval/candidates.json`, set each keeper's `status` to `approved` and each reject to `rejected`. Edit any wording that's wrong.
+4. `python promote_candidates.py` copies the approved items into `eval/questions.json` with new IDs. Each one is marked `promoted`, so running it again doesn't add duplicates.
+
+Generated questions tend to reuse the document's own wording, so they're easier than real user questions. Hard, indirect questions still need to be written by people.
 
 ## Limitations
 
@@ -149,6 +164,8 @@ streamlit run app.py                  # demo UI
 - **Keyword-scored eval.** This is coarse and can't judge whether a paraphrase is correct, so a human review of answers is still needed.
 - **Role-based access is simulated.** A production system would take roles from the identity provider and enforce access in the document store, not in app code.
 - **No conversation memory.** Each question is answered on its own.
+- **Long-section chunking is untested.** Every section in this corpus is short, about 23 words and 32 tokens per chunk. The 600-character split and overlap logic never runs here. Real policy sections are longer, so that path needs a longer test document before it can be trusted.
+- **Generated questions are easier than real ones.** They mirror the source wording, so the drafted candidates need human review and can't replace hand-written hard cases.
 
 ## What I would do in production
 

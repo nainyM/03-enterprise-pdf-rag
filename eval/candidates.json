@@ -1,0 +1,819 @@
+[
+  {
+    "status": "pending",
+    "source": "generated",
+    "category": "generated-factual",
+    "role": "all",
+    "question": "What time does the normal workday begin and end at our company?",
+    "gold": [
+      "HR-001 p1"
+    ],
+    "must_contain": [
+      "9:00",
+      "17:30"
+    ],
+    "forbidden": [],
+    "must_refuse": false,
+    "passage": "Working Hours. Standard working hours are 9:00 to 17:30 local time, Monday to Friday. Core collaboration hours are 10:00 to 15:00.",
+    "cand_id": 1
+  },
+  {
+    "status": "pending",
+    "source": "generated",
+    "category": "generated-factual",
+    "role": "all",
+    "question": "During which part of the day am I expected to be available for working with teammates?",
+    "gold": [
+      "HR-001 p1"
+    ],
+    "must_contain": [
+      "10:00",
+      "15:00"
+    ],
+    "forbidden": [],
+    "must_refuse": false,
+    "passage": "Working Hours. Standard working hours are 9:00 to 17:30 local time, Monday to Friday. Core collaboration hours are 10:00 to 15:00.",
+    "cand_id": 2
+  },
+  {
+    "status": "pending",
+    "source": "generated",
+    "category": "generated-factual",
+    "role": "all",
+    "question": "How many vacation days do I get each year if I work full time?",
+    "gold": [
+      "HR-001 p1"
+    ],
+    "must_contain": [
+      "22 days"
+    ],
+    "forbidden": [],
+    "must_refuse": false,
+    "passage": "Paid Leave. Full-time employees receive 22 days of paid annual leave per calendar year. Unused leave carries over up to 5 days into the next year.",
+    "cand_id": 3
+  },
+  {
+    "status": "pending",
+    "source": "generated",
+    "category": "generated-factual",
+    "role": "all",
+    "question": "If I don't use all of my time off this year, how much can I roll over into next year?",
+    "gold": [
+      "HR-001 p1"
+    ],
+    "must_contain": [
+      "5 days"
+    ],
+    "forbidden": [],
+    "must_refuse": false,
+    "passage": "Paid Leave. Full-time employees receive 22 days of paid annual leave per calendar year. Unused leave carries over up to 5 days into the next year.",
+    "cand_id": 4
+  },
+  {
+    "status": "pending",
+    "source": "generated",
+    "category": "generated-factual",
+    "role": "all",
+    "question": "What's the maximum number of days I can work from home each week, and do I need anyone's permission?",
+    "gold": [
+      "HR-001 p2"
+    ],
+    "must_contain": [
+      "3 days",
+      "manager approval"
+    ],
+    "forbidden": [],
+    "must_refuse": false,
+    "passage": "Remote Work. Employees may work remotely up to 3 days per week with manager approval. Remote days must be logged in the attendance tool by Friday noon.",
+    "cand_id": 5
+  },
+  {
+    "status": "pending",
+    "source": "generated",
+    "category": "generated-factual",
+    "role": "all",
+    "question": "When do I need to record the days I worked remotely, and where do I do it?",
+    "gold": [
+      "HR-001 p2"
+    ],
+    "must_contain": [
+      "Friday noon",
+      "attendance tool"
+    ],
+    "forbidden": [],
+    "must_refuse": false,
+    "passage": "Remote Work. Employees may work remotely up to 3 days per week with manager approval. Remote days must be logged in the attendance tool by Friday noon.",
+    "cand_id": 6
+  },
+  {
+    "status": "pending",
+    "source": "generated",
+    "category": "generated-factual",
+    "role": "all",
+    "question": "If I'm the main person taking care of a new baby, how much time off with pay can I get?",
+    "gold": [
+      "HR-001 p2"
+    ],
+    "must_contain": [
+      "16 weeks"
+    ],
+    "forbidden": [],
+    "must_refuse": false,
+    "passage": "Parental Leave. Primary caregivers receive 16 weeks of paid parental leave.",
+    "cand_id": 7
+  },
+  {
+    "status": "pending",
+    "source": "generated",
+    "category": "generated-factual",
+    "role": "all",
+    "question": "Does the company pay me while I'm out on leave after having a child if I'm the primary caregiver?",
+    "gold": [
+      "HR-001 p2"
+    ],
+    "must_contain": [
+      "paid",
+      "16 weeks"
+    ],
+    "forbidden": [],
+    "must_refuse": false,
+    "passage": "Parental Leave. Primary caregivers receive 16 weeks of paid parental leave.",
+    "cand_id": 8
+  },
+  {
+    "status": "pending",
+    "source": "generated",
+    "category": "generated-factual",
+    "role": "hr",
+    "question": "What is the pay range for a Product Manager at our company?",
+    "gold": [
+      "HR-002 p1"
+    ],
+    "must_contain": [
+      "L4",
+      "115,000",
+      "140,000"
+    ],
+    "forbidden": [],
+    "must_refuse": false,
+    "passage": "Salary Bands. Band L3 (Senior Analyst): 95,000 to 115,000 USD. Band L4 (Product Manager): 115,000 to 140,000 USD. Band L5 (Senior Product Manager): 140,000 to 170,000 USD.",
+    "cand_id": 9
+  },
+  {
+    "status": "pending",
+    "source": "generated",
+    "category": "generated-factual",
+    "role": "hr",
+    "question": "How much can someone in a Senior Analyst role expect to earn, and which level is that?",
+    "gold": [
+      "HR-002 p1"
+    ],
+    "must_contain": [
+      "L3",
+      "95,000",
+      "115,000"
+    ],
+    "forbidden": [],
+    "must_refuse": false,
+    "passage": "Salary Bands. Band L3 (Senior Analyst): 95,000 to 115,000 USD. Band L4 (Product Manager): 115,000 to 140,000 USD. Band L5 (Senior Product Manager): 140,000 to 170,000 USD.",
+    "cand_id": 10
+  },
+  {
+    "status": "pending",
+    "source": "generated",
+    "category": "generated-factual",
+    "role": "hr",
+    "question": "When do managers go over yearly pay raises for employees?",
+    "gold": [
+      "HR-002 p2"
+    ],
+    "must_contain": [
+      "March"
+    ],
+    "forbidden": [],
+    "must_refuse": false,
+    "passage": "Bonus and Reviews. Annual merit increases are reviewed in March. The bonus target for band L5 is 15 percent of base salary.",
+    "cand_id": 11
+  },
+  {
+    "status": "pending",
+    "source": "generated",
+    "category": "generated-factual",
+    "role": "hr",
+    "question": "How big is the bonus I can aim for if I'm at the L5 level?",
+    "gold": [
+      "HR-002 p2"
+    ],
+    "must_contain": [
+      "15 percent",
+      "base salary"
+    ],
+    "forbidden": [],
+    "must_refuse": false,
+    "passage": "Bonus and Reviews. Annual merit increases are reviewed in March. The bonus target for band L5 is 15 percent of base salary.",
+    "cand_id": 12
+  },
+  {
+    "status": "pending",
+    "source": "generated",
+    "category": "generated-factual",
+    "role": "finance",
+    "question": "How much can I claim per day for food when I travel within the country?",
+    "gold": [
+      "FIN-002 p1"
+    ],
+    "must_contain": [
+      "90 USD",
+      "per day"
+    ],
+    "forbidden": [],
+    "must_refuse": false,
+    "passage": "Meal Allowance. Effective 1 March 2026, the meal allowance for domestic travel is 90 USD per day. Receipts are required for any expense above 30 USD.",
+    "cand_id": 13
+  },
+  {
+    "status": "pending",
+    "source": "generated",
+    "category": "generated-factual",
+    "role": "finance",
+    "question": "At what amount do I need to keep a receipt for a meal expense?",
+    "gold": [
+      "FIN-002 p1"
+    ],
+    "must_contain": [
+      "30 USD",
+      "above"
+    ],
+    "forbidden": [],
+    "must_refuse": false,
+    "passage": "Meal Allowance. Effective 1 March 2026, the meal allowance for domestic travel is 90 USD per day. Receipts are required for any expense above 30 USD.",
+    "cand_id": 14
+  },
+  {
+    "status": "pending",
+    "source": "generated",
+    "category": "generated-factual",
+    "role": "finance",
+    "question": "How long do I have after buying something for work to turn in my expense report?",
+    "gold": [
+      "FIN-002 p2"
+    ],
+    "must_contain": [
+      "45 days"
+    ],
+    "forbidden": [],
+    "must_refuse": false,
+    "passage": "Submission Deadline. Expense reports must be submitted within 45 days of the transaction. Policy v2 is superseded and must not be used for claims dated after 1 March 2026.",
+    "cand_id": 15
+  },
+  {
+    "status": "pending",
+    "source": "generated",
+    "category": "generated-factual",
+    "role": "finance",
+    "question": "Can I still file a claim dated after the start of March 2026 using the older version of the expense policy?",
+    "gold": [
+      "FIN-002 p2"
+    ],
+    "must_contain": [
+      "v2",
+      "superseded",
+      "1 March 2026"
+    ],
+    "forbidden": [],
+    "must_refuse": false,
+    "passage": "Submission Deadline. Expense reports must be submitted within 45 days of the transaction. Policy v2 is superseded and must not be used for claims dated after 1 March 2026.",
+    "cand_id": 16
+  },
+  {
+    "status": "pending",
+    "source": "generated",
+    "category": "generated-factual",
+    "role": "finance",
+    "question": "I need to give a customer a 1,500 dollar refund. Who has to sign off on it?",
+    "gold": [
+      "FIN-003 p1"
+    ],
+    "must_contain": [
+      "Finance Manager",
+      "200 to 2,000"
+    ],
+    "forbidden": [],
+    "must_refuse": false,
+    "passage": "Refund Approval Levels. Customer refunds up to 200 USD may be approved by a Support Lead. Refunds from 200 to 2,000 USD require a Finance Manager. Refunds above 2,000 USD require the CFO.",
+    "cand_id": 17
+  },
+  {
+    "status": "pending",
+    "source": "generated",
+    "category": "generated-factual",
+    "role": "finance",
+    "question": "What's the biggest refund a Support Lead can okay without escalating, and when does it have to go to the CFO?",
+    "gold": [
+      "FIN-003 p1"
+    ],
+    "must_contain": [
+      "200 USD",
+      "2,000 USD",
+      "CFO"
+    ],
+    "forbidden": [],
+    "must_refuse": false,
+    "passage": "Refund Approval Levels. Customer refunds up to 200 USD may be approved by a Support Lead. Refunds from 200 to 2,000 USD require a Finance Manager. Refunds above 2,000 USD require the CFO.",
+    "cand_id": 18
+  },
+  {
+    "status": "pending",
+    "source": "generated",
+    "category": "generated-factual",
+    "role": "finance",
+    "question": "I'm flying to a meeting that's about 4 hours away. Can I book business class, or do I have to fly coach?",
+    "gold": [
+      "TRV-001 p1"
+    ],
+    "must_contain": [
+      "economy",
+      "6 hours"
+    ],
+    "forbidden": [],
+    "must_refuse": false,
+    "passage": "Flights and Hotels. Flights under 6 hours must be booked in economy. Hotels must not exceed 220 USD per night in domestic cities, excluding major events. Bookings are made through the approved travel portal.",
+    "cand_id": 19
+  },
+  {
+    "status": "pending",
+    "source": "generated",
+    "category": "generated-factual",
+    "role": "finance",
+    "question": "What's the most I can spend on a hotel room per night when traveling to another city within the country?",
+    "gold": [
+      "TRV-001 p1"
+    ],
+    "must_contain": [
+      "220 USD",
+      "per night",
+      "domestic"
+    ],
+    "forbidden": [],
+    "must_refuse": false,
+    "passage": "Flights and Hotels. Flights under 6 hours must be booked in economy. Hotels must not exceed 220 USD per night in domestic cities, excluding major events. Bookings are made through the approved travel portal.",
+    "cand_id": 20
+  },
+  {
+    "status": "pending",
+    "source": "generated",
+    "category": "generated-factual",
+    "role": "security",
+    "question": "How long can I keep elevated admin rights on a system before someone has to sign off on them again?",
+    "gold": [
+      "SEC-001 p1"
+    ],
+    "must_contain": [
+      "90 days",
+      "re-approved"
+    ],
+    "forbidden": [],
+    "must_refuse": false,
+    "passage": "Authentication. All production systems require multi-factor authentication. Privileged access is granted for a maximum of 90 days and must be re-approved. Shared accounts are prohibited.",
+    "cand_id": 21
+  },
+  {
+    "status": "pending",
+    "source": "generated",
+    "category": "generated-factual",
+    "role": "security",
+    "question": "Is it okay for my team to share one login for a production server, and what kind of sign-in checks are needed there?",
+    "gold": [
+      "SEC-001 p1"
+    ],
+    "must_contain": [
+      "Shared accounts are prohibited",
+      "multi-factor authentication"
+    ],
+    "forbidden": [],
+    "must_refuse": false,
+    "passage": "Authentication. All production systems require multi-factor authentication. Privileged access is granted for a maximum of 90 days and must be re-approved. Shared accounts are prohibited.",
+    "cand_id": 22
+  },
+  {
+    "status": "pending",
+    "source": "generated",
+    "category": "generated-factual",
+    "role": "security",
+    "question": "How often do system owners have to go back and check who has access to their systems?",
+    "gold": [
+      "SEC-001 p2"
+    ],
+    "must_contain": [
+      "quarterly",
+      "system owners"
+    ],
+    "forbidden": [],
+    "must_refuse": false,
+    "passage": "Access Reviews. Access reviews are performed quarterly by system owners. Terminated employees must lose access within 24 hours.",
+    "cand_id": 23
+  },
+  {
+    "status": "pending",
+    "source": "generated",
+    "category": "generated-factual",
+    "role": "security",
+    "question": "After someone leaves the company, what's the deadline for shutting off their system access?",
+    "gold": [
+      "SEC-001 p2"
+    ],
+    "must_contain": [
+      "24 hours"
+    ],
+    "forbidden": [],
+    "must_refuse": false,
+    "passage": "Access Reviews. Access reviews are performed quarterly by system owners. Terminated employees must lose access within 24 hours.",
+    "cand_id": 24
+  },
+  {
+    "status": "pending",
+    "source": "generated",
+    "category": "generated-factual",
+    "role": "security",
+    "question": "How quickly does someone need to respond once a top-priority security incident is raised?",
+    "gold": [
+      "SEC-002 p1"
+    ],
+    "must_contain": [
+      "15 minutes"
+    ],
+    "forbidden": [],
+    "must_refuse": false,
+    "passage": "Severity Response. Severity 1 incidents must be acknowledged within 15 minutes. The incident commander notifies the CISO within 1 hour of a confirmed customer data exposure.",
+    "cand_id": 25
+  },
+  {
+    "status": "pending",
+    "source": "generated",
+    "category": "generated-factual",
+    "role": "security",
+    "question": "If we confirm that customer data was exposed, how soon does the CISO have to be told, and who is responsible for telling them?",
+    "gold": [
+      "SEC-002 p1"
+    ],
+    "must_contain": [
+      "1 hour",
+      "incident commander"
+    ],
+    "forbidden": [],
+    "must_refuse": false,
+    "passage": "Severity Response. Severity 1 incidents must be acknowledged within 15 minutes. The incident commander notifies the CISO within 1 hour of a confirmed customer data exposure.",
+    "cand_id": 26
+  },
+  {
+    "status": "pending",
+    "source": "generated",
+    "category": "generated-factual",
+    "role": "security",
+    "question": "How soon after a security incident does the team have to finish the review of what happened?",
+    "gold": [
+      "SEC-002 p2"
+    ],
+    "must_contain": [
+      "5 business days"
+    ],
+    "forbidden": [],
+    "must_refuse": false,
+    "passage": "Post-Incident Review. Post-incident reviews are completed within 5 business days and are blameless.",
+    "cand_id": 27
+  },
+  {
+    "status": "pending",
+    "source": "generated",
+    "category": "generated-factual",
+    "role": "security",
+    "question": "When we go over an incident afterward, is anyone going to be blamed or disciplined for what went wrong?",
+    "gold": [
+      "SEC-002 p2"
+    ],
+    "must_contain": [
+      "blameless"
+    ],
+    "forbidden": [],
+    "must_refuse": false,
+    "passage": "Post-Incident Review. Post-incident reviews are completed within 5 business days and are blameless.",
+    "cand_id": 28
+  },
+  {
+    "status": "pending",
+    "source": "generated",
+    "category": "generated-factual",
+    "role": "security",
+    "question": "How far back can I look at old chats and calls with customers before they get purged?",
+    "gold": [
+      "ENG-001 p1"
+    ],
+    "must_contain": [
+      "18 months"
+    ],
+    "forbidden": [],
+    "must_refuse": false,
+    "passage": "Retention Periods. Customer support transcripts are retained for 18 months. Financial records are retained for 7 years. Backups are deleted after 35 days.",
+    "cand_id": 29
+  },
+  {
+    "status": "pending",
+    "source": "generated",
+    "category": "generated-factual",
+    "role": "security",
+    "question": "What's the timeframe for keeping our accounting and money-related documents, and how soon do backup copies get wiped?",
+    "gold": [
+      "ENG-001 p1"
+    ],
+    "must_contain": [
+      "7 years",
+      "35 days"
+    ],
+    "forbidden": [],
+    "must_refuse": false,
+    "passage": "Retention Periods. Customer support transcripts are retained for 18 months. Financial records are retained for 7 years. Backups are deleted after 35 days.",
+    "cand_id": 30
+  },
+  {
+    "status": "pending",
+    "source": "generated",
+    "category": "generated-factual",
+    "role": "all",
+    "question": "How quickly do enterprise customers get an initial reply from support after opening a ticket?",
+    "gold": [
+      "PRD-001 p1"
+    ],
+    "must_contain": [
+      "1 hour",
+      "enterprise"
+    ],
+    "forbidden": [],
+    "must_refuse": false,
+    "passage": "Response Targets. First response target is 4 business hours for standard tickets and 1 hour for enterprise tickets. Resolution target for standard tickets is 3 business days.",
+    "cand_id": 31
+  },
+  {
+    "status": "pending",
+    "source": "generated",
+    "category": "generated-factual",
+    "role": "all",
+    "question": "What's the goal for getting a standard support ticket fully resolved?",
+    "gold": [
+      "PRD-001 p1"
+    ],
+    "must_contain": [
+      "3 business days"
+    ],
+    "forbidden": [],
+    "must_refuse": false,
+    "passage": "Response Targets. First response target is 4 business hours for standard tickets and 1 hour for enterprise tickets. Resolution target for standard tickets is 3 business days.",
+    "cand_id": 32
+  },
+  {
+    "status": "pending",
+    "source": "generated",
+    "category": "generated-factual",
+    "role": "all",
+    "question": "What level of service availability do we promise to our biggest clients each month?",
+    "gold": [
+      "PRD-001 p2"
+    ],
+    "must_contain": [
+      "99.9 percent",
+      "calendar month"
+    ],
+    "forbidden": [],
+    "must_refuse": false,
+    "passage": "Enterprise Support. Enterprise customers receive a dedicated support channel. Uptime commitment is 99.9 percent per calendar month.",
+    "cand_id": 33
+  },
+  {
+    "status": "pending",
+    "source": "generated",
+    "category": "generated-factual",
+    "role": "all",
+    "question": "Do our largest accounts get their own way to reach support, or do they share the general line?",
+    "gold": [
+      "PRD-001 p2"
+    ],
+    "must_contain": [
+      "dedicated support channel"
+    ],
+    "forbidden": [],
+    "must_refuse": false,
+    "passage": "Enterprise Support. Enterprise customers receive a dedicated support channel. Uptime commitment is 99.9 percent per calendar month.",
+    "cand_id": 34
+  },
+  {
+    "status": "pending",
+    "source": "generated",
+    "category": "generated-factual",
+    "role": "all",
+    "question": "How often do we push out new releases, and on what day of the week?",
+    "gold": [
+      "PRD-002 p1"
+    ],
+    "must_contain": [
+      "every second Tuesday"
+    ],
+    "forbidden": [],
+    "must_refuse": false,
+    "passage": "Release Cadence. Releases ship every second Tuesday. Each release requires passing automated tests, a security scan, and sign-off from the product owner.",
+    "cand_id": 35
+  },
+  {
+    "status": "pending",
+    "source": "generated",
+    "category": "generated-factual",
+    "role": "all",
+    "question": "What checks does a build have to clear before it can go out the door?",
+    "gold": [
+      "PRD-002 p1"
+    ],
+    "must_contain": [
+      "automated tests",
+      "security scan",
+      "product owner"
+    ],
+    "forbidden": [],
+    "must_refuse": false,
+    "passage": "Release Cadence. Releases ship every second Tuesday. Each release requires passing automated tests, a security scan, and sign-off from the product owner.",
+    "cand_id": 36
+  },
+  {
+    "status": "pending",
+    "source": "generated",
+    "category": "generated-factual",
+    "role": "all",
+    "question": "Who do I need to get sign-off from if I want to push an urgent fix to production without waiting for the normal release schedule?",
+    "gold": [
+      "PRD-002 p2"
+    ],
+    "must_contain": [
+      "on-call engineering manager"
+    ],
+    "forbidden": [],
+    "must_refuse": false,
+    "passage": "Hotfixes. Hotfixes can ship outside the cycle with approval from the on-call engineering manager. Feature flags must be used for any change touching billing.",
+    "cand_id": 37
+  },
+  {
+    "status": "pending",
+    "source": "generated",
+    "category": "generated-factual",
+    "role": "all",
+    "question": "If my code change affects billing, is there a specific mechanism I'm required to use when rolling it out?",
+    "gold": [
+      "PRD-002 p2"
+    ],
+    "must_contain": [
+      "Feature flags"
+    ],
+    "forbidden": [],
+    "must_refuse": false,
+    "passage": "Hotfixes. Hotfixes can ship outside the cycle with approval from the on-call engineering manager. Feature flags must be used for any change touching billing.",
+    "cand_id": 38
+  },
+  {
+    "status": "pending",
+    "source": "generated",
+    "category": "generated-factual",
+    "role": "all",
+    "question": "What topics do I need to cover when putting together a PRD?",
+    "gold": [
+      "PRD-003 p1"
+    ],
+    "must_contain": [
+      "problem statement",
+      "target user",
+      "success metrics",
+      "non-goals",
+      "risks"
+    ],
+    "forbidden": [],
+    "must_refuse": false,
+    "passage": "Required Sections. Each PRD must include a problem statement, target user, success metrics, non-goals, and risks. Launch decisions require a readiness review.",
+    "cand_id": 39
+  },
+  {
+    "status": "pending",
+    "source": "generated",
+    "category": "generated-factual",
+    "role": "all",
+    "question": "Is there a step I need to complete before a product can be launched?",
+    "gold": [
+      "PRD-003 p1"
+    ],
+    "must_contain": [
+      "readiness review"
+    ],
+    "forbidden": [],
+    "must_refuse": false,
+    "passage": "Required Sections. Each PRD must include a problem statement, target user, success metrics, non-goals, and risks. Launch decisions require a readiness review.",
+    "cand_id": 40
+  },
+  {
+    "status": "pending",
+    "source": "generated",
+    "category": "generated-refusal",
+    "role": "all",
+    "question": "What is the guest Wi-Fi password at the Denver office?",
+    "gold": [],
+    "must_contain": [],
+    "forbidden": [],
+    "must_refuse": true,
+    "passage": "",
+    "cand_id": 41
+  },
+  {
+    "status": "pending",
+    "source": "generated",
+    "category": "generated-refusal",
+    "role": "all",
+    "question": "What is on the cafeteria lunch menu this week?",
+    "gold": [],
+    "must_contain": [],
+    "forbidden": [],
+    "must_refuse": true,
+    "passage": "",
+    "cand_id": 42
+  },
+  {
+    "status": "pending",
+    "source": "generated",
+    "category": "generated-refusal",
+    "role": "all",
+    "question": "What is the company's revenue forecast for 2027?",
+    "gold": [],
+    "must_contain": [],
+    "forbidden": [],
+    "must_refuse": true,
+    "passage": "",
+    "cand_id": 43
+  },
+  {
+    "status": "pending",
+    "source": "generated",
+    "category": "generated-refusal",
+    "role": "all",
+    "question": "Who won the Employee of the Year award in 2025?",
+    "gold": [],
+    "must_contain": [],
+    "forbidden": [],
+    "must_refuse": true,
+    "passage": "",
+    "cand_id": 44
+  },
+  {
+    "status": "pending",
+    "source": "generated",
+    "category": "generated-refusal",
+    "role": "all",
+    "question": "What is the roadmap and launch date for the mobile app's next major version?",
+    "gold": [],
+    "must_contain": [],
+    "forbidden": [],
+    "must_refuse": true,
+    "passage": "",
+    "cand_id": 45
+  },
+  {
+    "status": "pending",
+    "source": "generated",
+    "category": "generated-refusal",
+    "role": "all",
+    "question": "How do I file a patent application for something I invented at work?",
+    "gold": [],
+    "must_contain": [],
+    "forbidden": [],
+    "must_refuse": true,
+    "passage": "",
+    "cand_id": 46
+  },
+  {
+    "status": "pending",
+    "source": "generated",
+    "category": "generated-refusal",
+    "role": "all",
+    "question": "When and where is the next company-wide offsite being held?",
+    "gold": [],
+    "must_contain": [],
+    "forbidden": [],
+    "must_refuse": true,
+    "passage": "",
+    "cand_id": 47
+  },
+  {
+    "status": "pending",
+    "source": "generated",
+    "category": "generated-refusal",
+    "role": "all",
+    "question": "Which vendor does the company use for payroll processing?",
+    "gold": [],
+    "must_contain": [],
+    "forbidden": [],
+    "must_refuse": true,
+    "passage": "",
+    "cand_id": 48
+  }
+]
