@@ -8,7 +8,9 @@ The point of the project is not the chatbot. It is measuring where a bad answer 
 
 > The corpus is **synthetic** (a fictional company, Kestrel Logistics). No real company data is included.
 
-![Cited answer in the Streamlit app](docs/app_answer.png)
+![Live app: cited answer for the finance role](docs/live_app_answer.png)
+
+![Local app: cited answer](docs/app_answer.png)
 
 ## Problem
 
@@ -138,7 +140,8 @@ streamlit run app.py                  # demo UI
 │   └── pdfs/                # generated PDFs
 ├── docs/
 │   ├── PRD.md               # product requirements, targets, risks
-│   └── app_answer.png       # screenshot
+│   ├── app_answer.png       # screenshot (local app)
+│   └── live_app_answer.png  # screenshot (live app)
 ├── eval/
 │   ├── questions.json       # 35 questions with gold answers
 │   ├── candidates.json      # drafted questions awaiting review, with a status for each
