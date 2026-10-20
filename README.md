@@ -1,5 +1,7 @@
 # Enterprise PDF RAG
 
+🔗 **Live app:** [03-enterprise-pdf-rag.streamlit.app](https://03-enterprise-pdf-rag-e2gmxxgtomfotzpj9samzn.streamlit.app/)
+
 A grounded question-answering assistant over internal company PDFs. It answers only from the documents a user's role is allowed to see, cites the page for each claim, and refuses when the documents don't support an answer.
 
 The point of the project is not the chatbot. It is measuring where a bad answer comes from: the search step missing the right page, or the language model misreading a page it was given.
